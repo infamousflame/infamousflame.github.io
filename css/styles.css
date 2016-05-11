@@ -56,3 +56,6 @@ section{
   display: inline;
   padding:20px;
 }
+form{
+  width: 90%;
+}
