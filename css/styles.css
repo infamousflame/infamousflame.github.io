@@ -22,6 +22,7 @@ section{
 }
 #experience .col-xs-10{
   padding:30px;
+  padding-top: 11vh;
   box-sizing: border-box;
 }
 #experience h1{
@@ -31,6 +32,7 @@ section{
 }
 #experience{
   text-align: center;
+  background-color: rgb(245, 245, 245);
 }
 .col-xs-3{
   margin: 0 3vw;
@@ -38,7 +40,10 @@ section{
 #about{
   background-color:grey;
   color:white;
+}
+#about .container{
   padding: 8vh;
+
 }
 #about p{
     display: table-cell;
@@ -47,7 +52,10 @@ section{
 }
 #contact{
   background-color: rgb(244, 244, 244);
-  padding-top:15vh;
+}
+#contact .container{
+  padding-top:12vh;
+
 }
 #contact .media{
   padding:0;
