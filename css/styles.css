@@ -1,90 +1,58 @@
-.container-fluid{
-  padding: 0;
-}
-
-.navbar-default{
-  background-color: transparent;
-  border: none;
-}
-
-.carousel-inner>.item>a>img, .carousel-inner>.item>img{
-  height:60vh;
-  width: 100vw;
-}
-#story{
-  padding:20px;
-}
-#story h1{
-  color: #F15A24;
-  font-family: 'Lobster', cursive;
-  text-shadow: 1px 1px 5px #000;
-  font-size: 80px;
-  margin-bottom: 0;
-}
-#story h3{
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  margin-top: 0;
-}
-#story #year{
-  font-family: 'Playfair Display', serif;
-  color: #ddd;
-  text-shadow: none;
-  z-index: -1;
-  position: absolute;
-  font-size: 200px;
-  font-weight: 700;
-}
-#review{
-  background-image: url('../img/food_review.jpg');
-  height: 600px;
-  background-size: cover;
+header{
+  background-image: url("../img/headerimg.jpg");
+  height: 100vh;
+  background-position: top;
   background-attachment: fixed;
-}
-#review .review-bg{
-  background-color: rgba(0, 0, 0, .5);
-  padding: 30px;
-  margin-top: 150px;
-}
-#review h1{
-  color: #F15A24;
-  font-family: 'Lobster', cursive;
-  font-size: 70px;
   text-align: center;
 }
-#review p{
-  font-family: 'Raleway', sans-serif;
-  font-size: 28px;
-  color:white;
-  text-align: center;
-}
-#menu{
-  background-image: url('../img/black_linen.png');
-  min-height: 500px;
-  padding-bottom: 50px;
 
+.center{
+  padding-top:30vh;
 }
-#menu .tab-pane {
-  background-color: white;
-  padding:15px;
+section{
 }
-#menu h1{
+.container-fluid{
+  padding:0;
+}
+.center{
+  position:fixed;
+}
+.projects{
+  margin-left: 10.33%;
+}
+#experience .col-xs-10{
+  padding:30px;
+  box-sizing: border-box;
+}
+#experience h1{
+  padding-top:10px;
   text-align: center;
-  color:white;
-  font-family: 'Lobster', cursive;
   font-size: 80px;
 }
-.nav-tabs.nav-justified>li>a{
-  color:#F15A24;
+#experience{
+  text-align: center;
+}
+.col-xs-3{
+  margin: 0 3vw;
+}
+#about{
+  background-color:grey;
+  color:white;
+  padding: 8vh;
+}
+#about p{
+    display: table-cell;
+    vertical-align: middle;
+    height: 46vh;
 }
 #contact{
-  background-color: #F15A24;
-  color: #fff;
+  background-color: rgb(244, 244, 244);
+  padding-top:15vh;
 }
-.carousel-caption img{
-  width:50%;
+#contact .media{
+  padding:0;
 }
-.right, .left{
-  height: 60vh;
+.media li{
+  display: inline;
+  padding:20px;
 }
