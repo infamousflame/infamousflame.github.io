@@ -59,11 +59,23 @@ section{
 }
 #contact .media{
   padding:0;
+  padding-top: 20px;
+}
+.media li:nth-child(n + 2){
+  padding:23px;
+}
+.media li:nth-child(1){
+  padding-right: 23px;
+}
+.media a{
+  color:inherit;
 }
 .media li{
   display: inline;
-  padding:20px;
 }
 form{
   width: 90%;
+}
+p{
+padding-top: 20px;
 }
