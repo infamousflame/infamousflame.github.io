@@ -1,10 +1,11 @@
 header{
-  background-image: url("../img/headerimg.jpg");
+  background-image: url("../img/down.jpg");
   height: 100vh;
   background-position: top;
   background-attachment: fixed;
   background-repeat: no-repeat;
   text-align: center;
+  background-size: cover;
 
 }
 
