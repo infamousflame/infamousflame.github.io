@@ -3,7 +3,9 @@ header{
   height: 100vh;
   background-position: top;
   background-attachment: fixed;
+  background-repeat: no-repeat;
   text-align: center;
+
 }
 
 .center{
@@ -46,9 +48,7 @@ section{
 
 }
 #about p{
-    display: table-cell;
-    vertical-align: middle;
-    height: 46vh;
+  padding-top:13%;
 }
 #contact{
   background-color: rgb(244, 244, 244);
@@ -76,7 +76,7 @@ section{
 form{
   width: 90%;
 }
-p{
+#experience p{
 padding-top: 20px;
 }
 .form-control:focus{
